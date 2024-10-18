@@ -2,7 +2,7 @@
 apiVersion: v1
 kind: Secret
 metadata:
-  name: my-db-20240115000456-password
+  name: my-db-20241018201756-password
   namespace: crossplane-system
 data:
   password: T1QrOXZQcDhMdXhoeFVQWVpLSk1kUG1YM04xTzBTd3YzWG5ZVjI0UFZzcz0=
@@ -15,7 +15,7 @@ metadata:
     organization: DevOps Toolkit
     author: Viktor Farcic <viktor@farcic.com>
 spec:
-  id: my-db-20240115000456
+  id: my-db-20241018201756
   compositionSelector:
     matchLabels:
       provider: azure
